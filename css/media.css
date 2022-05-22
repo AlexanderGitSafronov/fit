@@ -1,0 +1,114 @@
+@media (max-width:998px) {
+    .logo {
+        width: 18vw;
+    }
+    .main {
+        
+            flex-direction: column;
+            justify-content: center;
+        
+    }
+    .main__text {
+        order: 2;
+        margin-top: 2vh;
+        text-align: center;
+        margin-right: 0;
+
+    }
+    .main__visual {
+order: 1;
+    }
+    .main__badge {
+        --size: 16vw;
+        top: 8%;
+        left: -45%;
+       
+      }
+      .main__img {
+        --size: 45vw;
+       
+      }
+      .main__title {
+        font-size: 13vw;
+        
+      }
+      .main__description {
+        font-size: 3.4vw;
+      }
+      .main__kettlebell {
+        
+        right: -15%;
+        width: 18vw;
+      }
+      .main__link {
+        display: none;
+    }
+      .footer__link {
+        display: inline;
+    }
+    .main_bg-round {
+        --size: 22vw;
+        border-width: 0.8vw ;
+        opacity: 0.3;
+      }
+      .main_bg-round_pink {
+        top: 15vh;
+        right: calc(var(--size) / -2);
+      }
+      .main_bg-round_orange {
+          --size: 17vw;
+        border-color: var(--orange);
+        bottom: 18vh;
+        left: calc(var(--size) / -2.4);
+      }
+}
+@media (max-width: 700px) {
+    :root {
+        --icon-size: 4.2vw;
+    }
+    .logo {
+        width: 25vw;
+    }
+    .main {
+        margin-top: 10vh;
+    }
+    .main__img {
+        --size: 80vw;
+      }
+      .main__badge {
+        --size: 24vw;
+        top: -25%;
+        left: 0%;
+       
+      }
+      .main__text {
+       
+        margin-top: 4vh;
+        
+
+    }
+      .main__title {
+        font-size: 20vw;
+        margin-bottom: 2.8vw;
+      }
+      .main__description {
+        font-size: 5vw;
+      }
+      .main__link {
+        display: block;
+        font-size: 3vw;
+    }
+      .main__kettlebell {
+          bottom: 0%;
+        right: -13%;
+        width: 26vw;
+      }
+      .footer {
+          justify-content: center;
+          
+      }
+      .footer__link {
+        display: none;
+    }
+    
+}
